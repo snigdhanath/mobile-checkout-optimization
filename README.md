@@ -9,13 +9,15 @@ This project identifies a critical technical barrier within the mobile checkout 
 A comparison between Desktop and Mobile performance revealed a significant technical disparity:
 * **Desktop Success Rate:** 100%.
 * **Mobile Success Rate:** 30%.
-* **Failed Mobile Transactions:** 7 total.
 * **Financial Impact:** An Average Order Value of **€72.00** led to a calculated weekly loss of **€504.00**.
+* [📂 View Raw Data Analysis](analysis/Data.xlsx)
 
 ## ⚙️ 2. Agile Execution (Jira)
 To manage the fix, I deployed a **Kanban framework** to prioritize engineering tasks:
 * **Bug Remediation (MCF-1):** Addressed a critical UI issue where the payment button was hidden on mobile viewports.
-* **Workflow Management:** Managed high-impact bug fixes and investigated potential API bottlenecks.
+* **Workflow Management:** Managed tasks from "To Do" to "Done" to ensure visibility for all stakeholders.
+
+![Jira Kanban Board](images/The%20Kanban%20Board.JPG)
 
 ## 📝 3. Quality & Technical Standards
 I defined strict **Acceptance Criteria** to ensure a permanent solution:
@@ -23,6 +25,11 @@ I defined strict **Acceptance Criteria** to ensure a permanent solution:
 * **Compatibility:** Ensured cross-browser functional consistency.
 * **UX Recovery:** Proposed a **"Retry" button (MCF-3)** to reduce total cart abandonment.
 
-## 💡 4. Lessons Learned
+## 📂 Project Resources
+* [📄 Download Full Confluence Project Report (PDF)](documentation/PRMCO-Project%20Report_%20Mobile%20Checkout%20Opti...)
+* [🖼️ View All Project Screenshots](images/)
+
+---
+## 💡 Lessons Learned
 * **Proactive Monitoring:** Implementing real-time alerts for checkout failures allows the team to identify revenue-dropping bugs within hours.
 * **Testing Standards:** Mandatory UI testing on varying screen viewports (iPhone 13-15) is a prerequisite for every deployment.
