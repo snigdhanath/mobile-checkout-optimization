@@ -15,7 +15,6 @@ A comparison between Desktop and Mobile performance revealed a significant techn
 ## ⚙️ 2. Agile Execution (Jira)
 To manage the fix, I deployed a **Kanban framework** to prioritize engineering tasks.
 * **Bug Remediation (MCF-1):** Addressed a critical UI issue where the payment button was hidden on mobile viewports.
-* **Workflow Management:** Managed tasks from "To Do" to "Done" to ensure visibility for all stakeholders.
 
 ### Kanban Board Overview
 ![Jira Kanban Board](images/The%20Kanban%20Board.JPG)
