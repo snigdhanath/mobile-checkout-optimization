@@ -9,21 +9,22 @@ This project identifies a critical technical barrier within the mobile checkout 
 A comparison between Desktop and Mobile performance revealed a significant technical disparity:
 * **Desktop Success Rate:** 100%.
 * **Mobile Success Rate:** 30%.
-* **Financial Impact:** An Average Order Value of **€72.00** led to a weekly loss of **€504.00**.
-* [📊 Click here to open Excel Data](analysis/data.xlsx)
+* **Financial Impact:** An Average Order Value of **€72.00** led to a calculated weekly loss of **€504.00**.
+* **Resource:** Full dataset is available in the **/analysis** folder above.
 
 ## ⚙️ 2. Agile Execution (Jira)
-I used a **Kanban framework** to manage the technical fix.
-* **Bug Remediation (MCF-1):** Fixed the hidden "Pay Now" button on mobile viewports.
+To manage the fix, I deployed a **Kanban framework** to prioritize engineering tasks.
+* **Bug Remediation (MCF-1):** Addressed a critical UI issue where the payment button was hidden on mobile viewports.
+* **Workflow Management:** Managed tasks from "To Do" to "Done" to ensure visibility for all stakeholders.
+* **Visuals:** Screenshots of the Jira board and tickets are located in the **/images** folder.
 
-### Project Resources (Screenshots)
-* **Kanban Board:** ![Kanban](images/kanban.jpg)
-* **Revenue Dashboard:** ![Dashboard](images/dashboard.jpg)
-
-## 📂 Project Resources
-* [📄 Download Full Project Report (PDF)](documentation/Project-Report.pdf)
+## 📝 3. Quality & Technical Standards
+I defined strict **Acceptance Criteria** to ensure a permanent solution:
+* **Responsiveness:** Payment buttons must be fully functional across all modern mobile viewports.
+* **Compatibility:** Ensured cross-browser functional consistency.
+* **Documentation:** The full project report (PDF) is available in the **/documentation** folder.
 
 ---
 ## 💡 Lessons Learned
-* **Proactive Monitoring:** Real-time alerts for checkout failures help catch bugs before revenue drops significantly.
-* **Testing Standards:** UI testing across different mobile screen sizes is mandatory for deployment.
+* **Proactive Monitoring:** Implementing real-time alerts for checkout failures allows the team to identify revenue-dropping bugs within hours.
+* **Testing Standards:** Mandatory UI testing on varying screen viewports is a prerequisite for every deployment.
