@@ -9,25 +9,21 @@ This project identifies a critical technical barrier within the mobile checkout 
 A comparison between Desktop and Mobile performance revealed a significant technical disparity:
 * **Desktop Success Rate:** 100%.
 * **Mobile Success Rate:** 30%.
-* **Financial Impact:** An Average Order Value of **€72.00** led to a calculated weekly loss of **€504.00**.
-* [📊 View Raw Data Analysis](analysis/Data.xlsx)
+* **Financial Impact:** An Average Order Value of **€72.00** led to a weekly loss of **€504.00**.
+* [📊 Click here to open Excel Data](analysis/data.xlsx)
 
 ## ⚙️ 2. Agile Execution (Jira)
-To manage the fix, I deployed a **Kanban framework** to prioritize engineering tasks.
-* **Bug Remediation (MCF-1):** Addressed a critical UI issue where the payment button was hidden on mobile viewports.
+I used a **Kanban framework** to manage the technical fix.
+* **Bug Remediation (MCF-1):** Fixed the hidden "Pay Now" button on mobile viewports.
 
-### Kanban Board Overview
-![Jira Kanban Board](images/The%20Kanban%20Board.JPG)
-
-### Technical Bug Details
-![Bug Ticket 1](images/The%20Bug%20Ticket%20Details%201.JPG)
-![Bug Ticket 2](images/The%20Bug%20Ticket%20Details%202.JPG)
+### Project Resources (Screenshots)
+* **Kanban Board:** ![Kanban](images/kanban.jpg)
+* **Revenue Dashboard:** ![Dashboard](images/dashboard.jpg)
 
 ## 📂 Project Resources
-* [📄 Download Full Confluence Project Report (PDF)](documentation/PRMCO-Project%20Report_%20Mobile%20Checkout%20Optimization%20%26%20Revenue%20Recovery.pdf)
-* [📊 View Revenue Dashboard Image](images/-Dashboard_.JPG)
+* [📄 Download Full Project Report (PDF)](documentation/Project-Report.pdf)
 
 ---
 ## 💡 Lessons Learned
-* **Proactive Monitoring:** Implementing real-time alerts for checkout failures allows the team to identify revenue-dropping bugs within hours.
-* **Testing Standards:** Mandatory UI testing on varying screen viewports (iPhone 13-15) is a prerequisite for every deployment.
+* **Proactive Monitoring:** Real-time alerts for checkout failures help catch bugs before revenue drops significantly.
+* **Testing Standards:** UI testing across different mobile screen sizes is mandatory for deployment.
